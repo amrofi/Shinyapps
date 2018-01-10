@@ -1,0 +1,19 @@
+titulo	ROC curve	Curva ROC
+par1	Now, we'll use a diagnostic indicator following the Normal probability distribution, with the same variance for either healthy or sick people.	En esta ocasión, utilizaremos un indicador diagnóstico que presenta una distribución Normal, con la misma variancia para sanos o enfermos.
+par2	This parameter represents the distance between the expected value of the indicator in the healthy population (left), and the expected value of the indicator in the sick population (right).	Este parámetro se refiere a la separación existente entre el valor esperado del indicador en los sanos (a la izquierda), y el valor esperado del indicador en los enfermos (a la derecha).
+par3	This parameter refers to the cutpoint in the indicator scale for diagnosing an individual as positive (if it exceeds the threshold) or negative (when it does not).	Este parámetro se refiere al punto de corte en la escala del indicador para diagnosticar al individuo como positivo (si supera el umbral) o como negativo (si no lo supera).
+par4	And this time we consider when the indicator is an ordinal, discrete variable.	Y en este caso, el indicador es una variable ordinal discreta.
+par5	You have to define the probability distributions for the scale in both healthy and sick populations. Click on the chart to modify the probabilities. Remember that the convention says that the more severe cases are on the right.	Define las distribuciones que sigue la escala para el grupo de sanos y para el de enfermos. Clica en el gráfico con el ratón para modificar las probabilidades. Recuerda que el convenio seguido es que los más graves se sitúan a la derecha.
+par6	The distribution for the sick group can be defined also from the healthy group distribution and a single parameter corresponding to the OR from a "<em>cumulative logit</em>" model.	También puedes definir la distribución de los enfermos a partir de la de los sanos y de un parámetro correspondiente al OR de un modelo "<em>cumulative logit</em>"
+orcum	OR in <em>cumulative logit</em> models is defined as $$ \frac {P(Y \le k  | S) P(Y > k | E)}{P(Y > k  | S) P(Y \le k | E)} $$	El OR de los modelos <em>cumulative logit</em> equivale a $$ \frac {P(Y \le k  | S) P(Y > k | E)}{P(Y > k  | S) P(Y \le k | E)} $$
+difme	Difference of means	Diferencia medias
+umb	Threshold	Umbral
+vid	More information in this video	Más información en este vídeo.
+norm	Normal scale	Escala Normal
+disk	Discrete scale	Escala discreta
+num	Number of levels in the scale	Número de niveles de la escala
+resul	Test result	Resultado del test
+sanos	Healthy	Sanos
+enfer	Sick	Enfermos
+espe	Specificity	Especificidad
+sensi	Sensitivity	Sensibilidad

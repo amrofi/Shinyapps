@@ -1,0 +1,21 @@
+titulo	Tailored die	Dado a medida
+tab1	Build the die	Construye el dado
+tab2	Roll the die	Lanza el dado
+tab3	There is order amidst chance	Hay orden en el azar
+par1	A common die has the same probability of getting each face when thrown. With this application, you can invent your own loaded die, in which some faces are more frequent than others.	Un dado común es el que cada cara presenta la misma probabilidad de salir al lanzarlo. Con este aplicativo te puedes inventar un dado trucado, en el que algunas caras pueden ser más frecuentes que otras.
+par2	Click with the mouse to modify the probabilities for each value that the die can return. At the same time, notice that the transformations in the value distributions change both its centrality indicators (expected value) and dispersion indicators (variance/standard deviation).	Clica con el ratón para modificar las probabilidades de cada valor que el dado puede devolver. Al mismo tiempo, observa cómo al modificarse la distribución de los valores van cambiando sus indicadores de centralidad (esperanza) y dispersión (variancia/desviación típica).
+par3	Press the <em>Uniform</em> button for coming back to a common die.	Con el botón <em>Uniforme</em> volverás a tener un dado común.
+par4	This table shows you how to compute the expected value of the die and its standard deviation.	Esta tabla te muestra cómo se calcula el valor esperado del dado y su desviación típica.
+par5	Once the random behavior of the die is defined, you are ready to start simulating its behavior. Each time the button is pressed, 30 possible rolls appear and are accrued to the previous ones.	Una vez se ha definido el comportamiento aleatorio del dado, puedes empezar a simular su comportamiento. Cada vez que pulses el botón aparecen 30 posibles lanzamientos que se acumulan a los anteriores.
+par6	After a large enough number of trials, it will become evident that the sample distribution is similar to the theoretical distribution.	Cuando hayas probado un número suficientemente alto, se hará evidente que la distribución muestral es muy parecida a la teórica.
+par7	The second button resets the series.	Con el segundo botón puedes reiniciar la serie.
+par8	The preceding simulated rolls are represented in this chart by the mean of the whole, with the number of rolls on the X axis.	Los lanzamientos simulados previos se representan en esta figura a través de la media obtenida por todos ellos, poniendo en el eje X el número de lanzamientos.
+par9	A horizontal line marks the position of the expected value. Despite the randomness and the independence between rolls, you can observe a clear tendency of the mean to approach the expected value as the die is rolled many times.	La línea horizontal está situada a la altura de la esperanza. Puedes observar que, a pesar del azar y de que los lanzamientos son independientes, el proceso presenta una tendencia clara a que la media se acerque a la esperanza cuando el dado se ha lanzado muchas veces.
+null	Uniform	Uniforme
+roll	Roll!	¡Lanza!
+zero	Reset	Reiniciar
+lnza	Rolls	Lanzamientos
+cumm	Cumulated mean	Media acumulada
+suma	Sum	Suma
+
+

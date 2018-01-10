@@ -1,0 +1,16 @@
+titulo	Two-mean test	Prueba sobre dos medias
+parr1	A simulation on sampling two independent groups is represented: 1,000 pairs of samples of size <em>n</em>.<p>The response Y is Normally distributed, and you can choose both population means, the (common) standard deviation &sigma; and the sample size (the same for each sample). &alpha; is assumed to be 5%.	Se representa la simulación de un muestreo sobre dos grupos independientes: 1000 pares de muestras de tamaño <em>n</em>.<p>La respuesta Y es Normal, y usted puede escoger ambas medias poblacionales, la desviación &sigma; (común) y el tamaño de cada muestra (el mismo para cada muestra). Se asume &alpha;=5%.
+parr2	The histogram shows the sample distribution of the <em>t</em> statistics, and the rejection region is drawn with pink rectangles: whenever the <em>t</em> statistics fall into this region, the null hypothesis is rejected in favor of the alternative hypothesis. The red points in the right chart are related to those tests where &mu;<sub>A</sub>=&mu;<sub>B</sub> was rejected.	El histograma muestra la distribución muestral del estadístico <em>t</em>, y los rectángulos de color rosa señalan la región de rechazo: cuando el estadístico <em>t</em> cae en esta región, la hipótesis nula se rechaza en favor de la hipótesis alternativa. Los puntos rojos en el gráfico de la derecha son aquellas pruebas en las que se rechazó &mu;<sub>A</sub>=&mu;<sub>B</sub>.
+grA	Population mean for A group	Media poblacional en grupo A
+grB	Population mean for B group	Media poblacional en grupo B
+sig	Deviation &sigma;	Desviación &sigma;
+ene	Sample size <em>n</em>	Tamaño <em>n</em>
+H_uno	Alternative hypothesis	Hipótesis alternativa
+t_val	t statistic value	Valor del estadístico t
+H1.neq	not equal A, B	A diferente de B	
+H1.gt	A greater than B	A mayor que B
+H1.lt	A less than B	A menor que B
+tipo1	Estimated &alpha; risk: %g	Riesgo &alpha; estimado: %g
+tipo2	Estimated &beta; risk: %g	Riesgo &beta; estimado: %g
+H.si	(Null hypothesis is true)	(Hipótesis nula es cierta)
+H.no	(Null hypothesis is false)	(Hipótesis nula es falsa)

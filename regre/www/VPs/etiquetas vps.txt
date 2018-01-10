@@ -1,0 +1,20 @@
+titulo	Predictive values	Valores Predictivos
+tab1	Parameters and results	Parámetros y resultados
+tab2	Definitions	Definiciones
+prev	Prevalence	Prevalencia
+sens	Sensitivity	Sensibilidad
+espe	Specificity	Especificidad
+choose	Choose the predictive value to be computed	Escoja el valor predictivo a calcular
+pos	Positive	Positivo
+neg	Negative	Negativo
+defpr	Prevalence: the proportion of a population found to have a condition (typically, an individual with the condition is known as a <em>case</em> or simply <em>sick</em>)	Prevalencia: proporción de enfermos (casos) en la población estudiada
+defsn	Sensitivity: the percentage of sick people who are correctly identified as having the condition by means of some diagnostic test = P(+|S)	Sensibilidad: tendencia en enfermos a dar positivo en determinada prueba diagnóstica = P(+|E)
+defsp	Specificity: the percentage of healthy people who are correctly identified as not having the condition = P(-|H)	Especificidad: tendencia a dar negativo en los sanos = P(-|S)
+defpos	Positive predictive value (PPV): the proportions of positive results that come from true cases = P(S|+)	Valor predictivo de un positivo (VPP): proporción de enfermos entre los positivos = P(E|+)
+defneg	Negative predictive value (NPV): the proportions of negative results that come from healthy people = P(H|-)	Valor predictivo de un negativo (VPN): proporción de sanos entre los negativos = P(S|-)
+enfs	Sick	Enfermos
+sanos	Healthy	Sanos
+poss	Positive	Positivos
+negs	Negative	Negativos
+vpp	PPV	VPP
+vpn	NPV	VPN

@@ -1,0 +1,17 @@
+titulo	2x2x2 tables	Tablas 2x2x2
+base.t	Base:	Base:
+z.t	Z (covariate) balance:	Balance Z (covariante):
+x.t	X (treatment) balance:	Balance X (tratamiento):
+y.t	Y (response) balance:	Balance Y (respuesta):
+xz.t	X-Z relationship:	Relación X-Z:
+yz.t	Y-Z relationship:	Relación Y-Z:
+xy.t	X-Y relationship:	Relación X-Y:
+xyz.t	Interaction:	Interacción:
+par1	<em>The "Base" parameter refers to the global size of the table;</em>	<em>El parámetro "Base" se refiere al tamaño global de la tabla;</em>
+par2	<em>balances for X, Y and Z are only qualitatively related to their proportions in the table;</em>	<em>los balances para X, Y y Z están solo cualitativamente relacionados con sus proporciones en la tabla;</em>
+par3	<em>for relationships, 0.5 means the neutral point.</em>	<em>para relaciones, 0.5 representa un punto neutral.</em>
+IC	<em>CI are 95% confidence intervals.</em>	<em>Los IC son intervalos de confianza al 95%</em>
+cova	By covariate	Por covariante
+jun	Aggregate	Agregados
+ci	CI	IC
+
