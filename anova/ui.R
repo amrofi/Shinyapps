@@ -1,3 +1,4 @@
+#
 Sys.setlocale("LC_ALL", "es_ES.UTF-8") #to be sure that accents in text will be allowed in plots
 library(shiny)
 source('../credit.r')
