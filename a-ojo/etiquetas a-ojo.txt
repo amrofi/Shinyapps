@@ -1,0 +1,13 @@
+titulo	Eyeballed regression	Regresión a ojo
+parr	Least squares estimation fits a straight line to a set of observations by minimizing the sum of squared errors. Try to find the solution visually; below, you can see the list of your best results.	La estimación por mínimos cuadrados encuentra la recta que mejor se ajusta a las observaciones minimizando la suma de los errores al cuadrado. Prueba a hallar la solución visualmente; debajo verás la lista de tus mejores resultados.
+soluc	Show solution	Mostrar solución
+marca	Mark two dots with the mouse in order to fix the line that fits the point cloud.	Señala con el ratón dos puntos para marcar la recta que quieres ajustar a la nube de observaciones.
+mapa	In this chart you can see how much the sum of squared errors is, depending on the line coefficients. The symbol represents the line fixed on the left. 	En esta gráfica verás cuánto vale la suma de errores al cuadrado, según los coeficientes de la recta. El símbolo representa la recta marcada a la izquierda.
+T0	Intercept	T.indep.
+T1	Slope	Pendiente
+SC	Sum Sq.Er. 	Suma Cuadr.
+opt	The optimum line is Y = %g%s%g X	La recta óptima es Y = %g%s%g X
+traz	The drawn line is Y = %g%s%g X	La recta trazada es Y = %g%s%g X
+suma	The minimum sum of squared errors is	La suma mínima de errores al cuadrado vale
+suma2	The sum of squared errors for this line is	La suma de errores al cuadrado para esta línea vale
+nrecta	Another cloud	Otra nube

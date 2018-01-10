@@ -1,0 +1,6 @@
+titulo	Binomial and Poisson	Binomial y Poisson
+par1	A variable following the Binomial distribution can be approximated by the Poisson model.	Una variable con distribución Binomial puede ser aproximada por un modelo Poisson.
+par2	To that effect, the <em>n</em> parameter must be large while the <em>p</em> parameter has to be a small probability. Then, a P(&lambda; = <em>n p</em>) model is a good alternative model for our variable.	Para ello, el parámetro <em>n</em> debe ser un valor alto, mientras  <em>p</em> corresponde a una probabilidad pequeña. Entonces, un modelo P(&lambda; = <em>n p</em>) es un buen modelo alternativo para nuestra variable.
+par3	Next, you can check the similarity between the real model and the approximation. Play with the controls until you get an idea of when it could be considered "large" and when it could be considered "small".	A continuación puedes comprobar la similitud entre el modelo real y la aproximación. Juega con los controles hasta que tengas una noción de cuándo se considera "alto" y cuándo se considera "pequeña".
+ene	<em>n</em> parameter	Parámetro <em>n</em>
+pe	<em>p</em> parameter	Parámetro <em>p</em>

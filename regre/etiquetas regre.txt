@@ -1,0 +1,16 @@
+titulo	Parameters of the linear model	Parámetros del modelo lineal
+txt1	In the linear model, we study the expected value of some response, Y, not as a constant value but as a value linearly dependent on some factor, X.	En el modelo lineal, se estudia el valor esperado de la respuesta Y, pero ya no como un valor constante sino como un valor que depende linealmente de un factor X.
+txt2	Therefore, the coefficients of the line relating X to the expected value of Y become the relevant parameters, from a statistical point of view.	Por tanto, los coeficientes de esta recta que relaciona X con el valor esperado de Y pasan a ser los parámetros relevantes desde el punto de vista estadístico.
+txt3	Don't forget the random component, represented by the &sigma; parameter.	No olvidamos la parte aleatoria, que representa el parámetro &sigma;.
+pend	Slope &beta;<sub>1</sub>	Pendiente &beta;<sub>1</sub>
+indep	Intercept &beta;<sub>0</sub>	Término independiente &beta;<sub>0</sub>
+desv	Standard deviation &sigma;	Desviación &sigma;
+rango	Range of X	Rango de X
+mostrar	Show:	Mostrar:
+recta	Model line	Recta del modelo
+condi	Conditional distributions	Distribuciones condicionadas
+obse	Observations	Observaciones
+ajus	Regression line	Recta de regresión
+tabla	Data	Datos
+ecua	<td>Equation of the regression line (green):</td><td>  Y = %g%s%gX</td>	<td>Ecuación de la recta de regresión (verde):</td><td>  Y = %g%s%gX</td>
+espe	<td>Equation of the E(Y | X) line (red):</td><td> Y = %g%s%gX</td>	<td>Ecuación de la recta E(Y | X) (rojo):</td><td> Y = %g%s%gX</td>

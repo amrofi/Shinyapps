@@ -1,0 +1,23 @@
+titulo	Nonrandom samples	Muestras no aleatorias
+txt1	The fundamental statistical inference is based on the availability of a simple random sample. With this application, we can experiment with what happens if the sample used is not really a simple random sample.	La inferencia estadística fundamental se basa en que disponemos de una muestra aleatoria simple. En este aplicativo vamos a experimentar qué ocurre si realmente la muestra empleada no es una muestra aleatoria simple.
+txt2	To that end, assume that we collect a dichotomous variable (in favor/against), and the parameter to be estimated is the probability of observing the event identified as success.	Para ello, supondremos que la variable recogida es dicotómica (a favor/en contra), y que el parámetro a estimar es la probabilidad de observar el evento que identificaremos como éxito.
+txt3	You can choose the sample size, the probability of the favorable event, and also a number related to the "affinity" between any two consecutive outputs: a positive number means that a response tends to like the previous response; a negative one means that it tends to adopt the opposed value.	Podrás escoger el tamaño de la muestra, la probabilidad del evento favorable, y también un número relacionado con la "afinidad" que pueden tener dos valores consecutivos: si es positivo, una respuesta tiene tendencia a parecerse a la respuesta anterior; si es negativa, a adoptar el valor contrario.
+txt4	You may also choose between two statistical procedures used by R for analyzing 0/1 variables: prop.test (suitable for large n) or binom.test (more accurate).	También puedes seleccionar entre dos procedimientos estadísticos utilizados por R para analizar variables 0/1: prop.test (aceptable para n grandes) o binom.test (más exacto).
+ene	Sample size	Tamaño de muestra
+propi	Success probability &pi;	Probabilidad éxito &pi;
+simpa	Affinity	Afinidad
+conf	Confidence	Confianza
+proc	Procedure	Procedimiento
+analis	Analysis of consecutive responses in the simulation	Análisis de las respuestas consecutivas en la simulación.
+explan	<h4><em>Affinity</em> chart</h4>The line color is related to probability of occurrence: the darker the line, the more frequent will be the observations of that type.	<h4>Gráfico de <em>afinidad</em></h4>El color de las líneas se asocia a probabilidad de ocurrencia: cuanto más oscura es la línea, más observaciones de ese tipo se tendrán.<p>
+prop	Sample proportion	Proporción muestral
+respu1	i-th response	Respuesta i
+respu0	i-1-th response	Respuesta i-1
+res1	<em>i</em>th resp.	Resp. <em>i</em>
+res0	<em>i-1</em>th <br>resp.	Resp. <br><em>i-1</em>
+tam	We have generated %d samples of size %d. <p>	Hemos generado %d muestras de tamaño %d. <p>
+favo	Statistics of the %d values obtained for the "sample proportion of favorable response": 	Estadísticas de los %d valores obtenidos para la "proporción muestral de respuesta favorable":
+prome	<ul><li>mean: %g; (expected value: %g)</li>	<ul><li>promedio: %g; (valor esperado: %g)</li>
+desv	<li>standard deviation: %g; (expected value: %g)</li></ul>	<li>desviación típica: %g; (valor esperado: %g)</li></ul>
+inter	%d confidence intervals really include the &pi; parameter (%g%%)<br>	%d intervalos de confianza contienen realmente el parámetro &pi; (%g%%)<br>
+nomi	The nominal confidence level is %g%%.	El nivel de confianza nominal es %g%%.

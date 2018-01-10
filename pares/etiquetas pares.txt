@@ -1,0 +1,29 @@
+titulo	Paired samples	Muestras apareadas
+par1	When comparing two situations (called A and B, respectively), some studies resort to a paired design, where two observations are obtained from each subject. This means that a correlation, usually positive, appears between both groups.	A la hora de comparar dos situaciones (que llamaremos A y B, respectivamente), algunos estudios recurren al diseño apareado, obteniendo dos observaciones de cada sujeto. Esto introduce de forma natural una correlación, habitualmente positiva, entre los dos grupos.
+dife	Means difference &mu;<sub>B</sub>-&mu;<sub>A</sub>	Diferencia entre medias &mu;<sub>B</sub>-&mu;<sub>A</sub>
+stdev	Standard deviation of response (either in A or B)	Desviación tipo de la respuesta (en A o en B)
+corr	Correlation (A,B)	Correlación (A,B)
+scala	Click on the scale to enter some observations for the A group. Those for the B group will be randomly generated according to the previous controls.	Clica en la escala para introducir observaciones en el grupo A. Las del grupo B se generarán al azar, de acuerdo con los ajustes anteriores.
+borra	Erase	Borrar
+ojo	Any change in the controls will regenerate the list of values for B.	Si cambias cualquier ajuste se regenerará la lista de valores de B.
+view	Choose view:	Elige vista:
+AB	A vs. B	A vs B
+SR	Subjects vs. response	Sujetos vs respuesta
+ran	I want a random sample	Quiero una muestra al azar
+indi	Indicators	Indicadores
+num	Number of observations: 	Número de observaciones: 
+meA	Mean of A: 	Media de A: 
+meB	Mean of B: 	Media de B: 
+meD	Mean of change B-A: 	Media del cambio B-A: 
+sdD	Standard deviation of change: 	Desviación tipo del cambio: 
+cole	Sample correlation: 	Correlación muestral: 
+ic	95% CI &mu;<sub>B</sub>-&mu;<sub>A</sub>: (	IC 95% &mu;<sub>B</sub>-&mu;<sub>A</sub>: (
+resp	Response	Respuesta
+suj	Subjects	Sujetos
+up	increasing	sube
+down	decreasing	baja
+cabec	To take into account	A tener en cuenta
+pto1	The mean of change is identical to the difference of means between A and B	La media del cambio coincide con la diferencia de medias entre A y B
+pto2	The standard deviation of change decreases whenever the correlation increases (and increases if the correlation goes down) 	La desviación tipo del cambio disminuye cuando aumenta la correlación (y aumenta si la correlación disminuye)
+pto3	Therefore, the key to the success of a paired design is a high correlation between the pairs of observations. When it is null or negative, it would be better to use independent samples.	Por tanto, la clave del éxito de un diseño apareado es la alta correlación entre los pares de observaciones. Si es nula o negativa mejor utilizar muestras independientes
+pto4	The CI tries to estimate the difference of means between A and B. But beware! It's hard to accept that your data are a random sample from population A.	El IC trata de estimar la diferencia de medias entre A y B pero ¡precaución! Es difícil aceptar que tus datos son una muestra al azar de la población A

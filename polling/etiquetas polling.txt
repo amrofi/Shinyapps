@@ -1,0 +1,49 @@
+titulo	Why surveys fail	Por qué fallan las encuestas
+tab1	Introduction	Introducción
+tab2	Prepare your survey	Monta tu encuesta
+tab3	Summary of results	Resumen de resultados
+back	Back	Atrás
+contar	%d people in the frame	%d individuos en el encuadre
+cont2	%d people selected	%d individuos seleccionados
+cont3	The sample size target has been reached.	Se ha alcanzado el tamaño de muestra objetivo.
+info1	Density of population	Densidad de población
+info2	Count of selected people	Número de individuos seleccionados
+queinfo	Choose the type of information appearing in the chart	Escoge el tipo de información que muestra el gráfico
+Ene	Sample size	Tamaño de la muestra
+Autom	Automatic sample	Muestra automática
+news	Reset/New survey	Reiniciar/Nueva encuesta
+estima	Point estimate: %g	Estimación puntual: %g
+confin	95%% confidence interval: [%g; %g]	Intervalo de confianza del 95%%: [%g; %g]
+subtit	Proportion of favorable responses	Proporción de respuestas  favorables
+bien	The interval estimate includes the true proportion of favorable responses.	La estimación por intervalo incluye la verdadera proporción de respuestas  favorables.
+mal	The interval estimate has failed to guess the true proportion of favorable responses.	La estimación por intervalo de la verdadera proporción de respuestas favorables ha fallado.
+lgnd	N. favorable responses / N. respondents	N. respuestas  favorables / N. encuestados
+lgnd0	N. respondents	N. encuestados
+Tous	Mark all	Marcar todos
+modera	<small> (Use it sparingly)</small>	<small> (Úsalo con moderación)</small>
+manu	Manual	Manual
+atoma	Automatic	Automático
+good	Prop. in CI	Prop. en IC
+bad	Prop. out CI	Prop. fuera IC
+txt1	Imagine you have to prepare a survey to poll a population distributed over a large area. One of the key issues is related to ascertaining the <em>proportion</em> of the population in favor of a particular option (for example, whether military service should be compulsory). Since you want to use a sample, the answer will be given by a confidence interval for such a proportion, which could only be known if we ask all citizens.	Imagina que has de preparar una encuesta para sondear una población distribuida en una gran área. Una de las cuestiones clave se refiere a averiguar la <em>proporción</em> de la población que es favorable a una determinada opción (por ejemplo, si el servicio militar debe ser obligatorio). Puesto que se desea utilizar una muestra, la respuesta vendrá dada por un intervalo de confianza sobre dicha proporción, la cual solo podríamos conocer si preguntáramos a todos los ciudadanos.
+txt2	This application includes a map showing all eligible individuals (about 100,000 in our case, which is already quite large). You can increase the detail until it is possible to select them one by one. Obviously, we do not know an individual’s opinion before selecting him/her. Once the sample is completed, the application will compute the confidence interval and tell you if it <em>contains the true proportion</em>. The process can be repeated to obtain different estimates.	Esta aplicación incluye un mapa en el que aparecen todos los individuos elegibles (unos 100.000 en nuestro caso, lo cual ya es bastante grande). Puedes aumentar el detalle hasta que sea posible seleccionarlos uno a uno. Obviamente, antes de seleccionar a un individuo no conocemos su opinión. Cuando la muestra se haya completado se hará el cálculo, y se te dirá si el intervalo de confianza <em>contiene la verdadera proporción</em>. El proceso puede repetirse para obtener diferentes estimaciones.
+txt3	We want to show that the estimate is only reliable (i.e., accurate 95% of the time) when the sample is representative. Unfortunately, it is very possible that your personal criterion is arbitrary, and you cannot achieve a truly representative sample, in which case the estimate should fail more than expected.	Queremos mostrarte que la estimación solo es fiable (es decir, acierta el 95% de las veces) cuando la muestra es representativa. Lamentablemente, es muy posible que tu criterio personal sea poco sistemático, y no logres que la muestra sea representativa, en cuyo caso la estimación debería fallar más de lo previsto. 
+txt4	You can also use an automated method: in this case, the system will choose a simple random sample for you, which ensures that failure occurs only one out of 20 times. Note that the method used for the confidence interval (the function prop.test R) requires that the data be independent.	Dispones de un método automático: en este caso, el sistema elegirá la muestra por ti, y será una muestra aleatoria simple, por lo que se cumple que solo falla una de cada 20 veces. Ten en cuenta que el método utilizado para el intervalo de confianza (la función prop.test de R) requiere que los datos sean independientes.
+ejem1	This picture is only an illustrative example. It represents a map you can zoom into by selecting a rectangle with the mouse. A button lets you go back. The map is functional in the "Prepare your survey" tab.	Esta imagen es solo un ejemplo ilustrativo. Representa un mapa en el que se puede hacer zoom seleccionando un rectángulo con el ratón. Un botón permite ir hacia atrás. El mapa es funcional en la pestaña "Monta tu encuesta".
+ejem2	At a certain scale, individuals appear as circles and can be selected one at a time with a mouse click (another click lets you deselect the individual). You can also select several at once, but it’s not recommended: neighboring individuals usually share connections.	A cierta escala los individuos aparecen como círculos, y pueden ser seleccionados de uno en uno con un clic de ratón (otro clic permite deseleccionar al individuo). También se pueden seleccionar en bloque, pero no es recomendable: los vecinos suelen estar relacionados entre sí.
+ejem3	An auxiliary map shows the population density in the main map, conveniently discretized. It also displays information about the position of the selected individuals.	Un mapa auxiliar muestra la densidad de población en el mapa principal, convenientemente discretizada. También muestra información sobre la posición de los individuos seleccionados.
+ejem4	The last image cannot be seen because it represents how people would respond to the question. Red represents the unfavorable vote, and blue the favorable one. The intermediate colors refer to areas where the population is mixed. Obviously, this information is not known by the pollster (or is known perhaps only partially). Note that the vote may be strongly associated with the geographical location.	La última imagen no la podrás ver, porque representa cómo la población respondería a la pregunta. El rojo representa el voto más desfavorable, y el azul el más favorable. Los tonos intermedios se refieren a zonas donde la población está más mezclada. Obviamente, para el encuestador esta información no es conocida (o quizás solo parcialmente). Obsérvese que el voto puede estar fuertemente asociado a la situación geográfica.
+cab2	<h4>How you will do it</h4>	<h4>Cómo lo harás</h4>
+cab3	<h4>The challenge</h4>	<h4>El reto</h4>
+cab4	<h4>And how do you get it right?</h4>	<h4>¿Y cómo se hace bien?</h4>
+p	Estimate	Estimación
+n	Sample size	Tam. muestral
+IC	CI 95%	IC 95%
+guia	A guide to better interpret the results	Guía para interpretar correctamente los resultados
+intro	Every time you obtain a sample of respondents (either manually or automatically), the results are depicted in the chart. Since individuals are different in every new sample, the estimates may fluctuate, as you can see after some trials.	Cada vez que se obtiene una muestra de encuestados (bien sea manual o automáticamente), los resultados se representan en el gráfico. Puesto que en cada nueva muestra los individuos son distintos, las estimaciones pueden fluctuar, tal como se apreciará si haces unas cuantas pruebas.
+rombo	The central diamond represents the point estimate from that sample (on the left, the numerical value).	El rombo central representa la estimación puntual a partir de la muestra (a la izquierda, el valor numérico).
+linea	The horizontal line is a 95% confidence interval.	La línea horizontal es un intervalo al 95% de confianza.
+lin.tip	Solid lines are CI obtained from automatic samples (the app got them for you); dashed lines are CI from your samples (you picked the individuals).	Las líneas continuas indican IC obtenidos de muestras automáticas (la aplicación las generó por ti); las líneas discontinuas son IC de tus muestras (tú escogiste a los individuos).
+lin.col	Green color is used whenever the true proportion falls inside the CI (meaning success); brown color means the opposite. As in the real world, the app won't tell you which is actually the true proportion.	El color verde se utiliza si la verdadera proporción cae dentro del IC (es decir, acierto); el color marrón indica lo contrario. La aplicación no dice cuál es el valor real de la verdadera proporción, tal como sucede en la realidad.
+
+

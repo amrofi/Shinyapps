@@ -1,0 +1,9 @@
+titulo	Distribution of the sample mean 	Distribución de la media muestral
+parraf	First decide how X (the observable variable) is to be distributed: modify the distribution shape by means of the first two controls.<p>We suppose that <em>n</em> observations are taken at random from this variable (choose the value of <em>n</em> below).<p>Find on the right the distribution of the mean of <em>n</em> observations, after sampling 10,000 times.	Decide primero cómo se distribuye la variable X a observar, mediante los dos primeros controles que permiten cambiar la forma de la distribución.<p>De esta variable suponemos que se toman <em>n</em> observaciones al azar (escoge abajo el valor de <em>n</em>).<p>A la derecha tenemos la distribución de la media de <em>n</em> observaciones, repitiendo 10000 veces el muestreo.
+shape1	Shape 1 parameter 	Parámetro de forma 1
+shape2	Shape 2 parameter 	Parámetro de forma 2
+ene	Sample size (<em>n</em>)	Tamaño de muestra (<em>n</em>)
+media	mean: 	media: 
+sd	;  std. deviation: 	;  desv. est: 
+pd	Details: the above shape parameters correspond to the parameters of a Beta probability distribution, \( \alpha \) and \( \beta \): $$par.1 = \log(\alpha),$$ $$par.2 = \log(\beta).$$ As a reference, take into account that the X variable is symmetric when \( \alpha = \beta \).	Detalles: los dos parámetros de forma anteriores se corresponden con los parámetros de la distribución de probabilidad Beta, \( \alpha \) y \( \beta \): $$par.1 = \log(\alpha),$$ $$par.2 = \log(\beta).$$ Como referencia, indiquemos que cuando \( \alpha = \beta \) la variable X es simétrica.
+

@@ -1,0 +1,39 @@
+titulo	Conditional probability	Probabilidad condicionada
+play	Experiment	Experimenta
+dim	Dimension	Dimensión
+cua	squares	cuadrados
+tri	triangles	triángulos
+show	Show:	Muestra:
+gold	Gold	Dorado
+golden	golden	dorados
+blue	Blue	Azul
+blues	blue	azules
+segun	By ...	Condicionar por ...
+forma	shape	forma
+color	color	color
+CUA	A square means: 	Un cuadrado significa: 
+TRI	A triangle means: 	Un triángulo significa: 
+GOLD	Gold means: 	El dorado significa: 
+BLUE	Blue means: 	El azul significa: 
+follon	Arrange this	Ordena esto
+P_C	Square proportion	Proporción de cuadrados
+P_D	Gold proportion	Proporción de dorados
+PD_C	Gold prop. within squares	Prop. dorados entre cuadrados
+PD_T	Gold prop. within triangles	Prop. dorados entre triángulos
+PC_D	Square prop. within golden	Prop. cuadrados entre dorados
+PC_A	Square prop. within blues	Prop. cuadrados entre azules
+intro1	In this app you'll see the representation of one population composed of geometric elements with different colors. However, we want you to think of situations from real life. For instance, a square can represent a man and a triangle a woman. Blue can mean a smoker and gold a non-smoker.	En esta aplicación vas a ver la representación de una población determinada por figuras geométricas de diferentes colores, pero queremos que pienses en situaciones de la vida real. Por ejemplo, un cuadrado puede simbolizar un hombre, y un triángulo una mujer. El color azul puede representar a un fumador, y el dorado a alguien que no fuma.
+intro2	You can modify the number of elements, and the proportions of shapes and colors. In addition, you can hide either the shape or the color in order to highlight the composition of the unhidden attribute.	Puedes modificar el número de figuras, y la proporción de formas y colores. También puedes ocultar una forma o un color determinados, de manera que sobre la opción escogida destaque mejor la composición del atributo que dejes libre.
+intro3	Therefore, think about the following questions. If we pick an element at random and it turns out to be a smoker, does that provide information about the gender? If we know that the chosen element is a man, does this indicate anything about his smoking status? We are thinking in terms of conditional probabilities.	Por tanto, reflexiona sobre estas preguntas: si se escoge un elemento al azar, ¿qué averiguamos del género de una persona si sabemos que es fumadora? Y si conocemos que es hombre, ¿qué aprenderemos de su hábito de fumar? En lenguaje de probabilidades, estamos pensando en probabilidades condicionadas.
+intro4	If you wish, you can build your own example. Decide what each shape and color represents and write them in the boxes below. 	Si quieres, puedes construir tu propio ejemplo: escribe tus equivalencias para las formas y colores en las cajas que aparecen a continuación.
+noform	You removed both shapes!	¡Has eliminado las dos formas!
+nocols	You removed both colors!	¡Has eliminado los dos colores!
+form0	Sorry, no %s. Modify your probabilities.	Lo siento, no hay %s. Modifica tus probabilidades.
+form00	Sorry, no %s elements. Modify your probabilities.	Lo siento, no hay figuras %s. Modifica tus probabilidades.
+form1	You can see all the squared shapes: there are %d golden shapes and %d blue shapes.<p> That is, %4.1f%% of the squares are golden and %4.1f%% are blue.	Estás viendo todas las formas cuadradas: hay %d de color dorado y %d de color azul.<p>Es decir, un %4.1f%% de los cuadrados son dorados y un %4.1f%% de los cuadrados son azules.
+form11	According to your example: <p>P(%s | %s) = %5.3g, <p>P(%s | %s) = %5.3g.	Según tu ejemplo: <p> P(%s | %s) = %5.3g, <p>P(%s | %s) = %5.3g.
+form2	You can see all the triangles: %d are golden and %d are blue.<p> That is, %4.1f%% of the triangles are golden and %4.1f%% are blue.	Estás viendo todas las formas triangulares: hay %d de color dorado y %d de color azul.<p>Es decir, un %4.1f%% de los triángulos son dorados y un %4.1f%% de los triángulos son azules.
+form3	You can see all the golden shapes: there are %d squared shapes and %d triangular shapes.<p> That is, %4.1f%% of the golden shapes are squares and %4.1f%% are triangles.	Estás viendo todas las formas doradas: hay %d cuadradas y %d triangulares.<p>Es decir, un %4.1f%% de las formas doradas son cuadrados y un %4.1f%% son triángulos.
+form4	You can see all the blue shapes: there are %d squared shapes and %d triangular shapes.<p> That is, %4.1f%% of the blue shapes are squares and %4.1f%% are triangles.	Estás viendo todas las formas azules: hay %d cuadradas y %d triangulares.<p>Es decir, un %4.1f%% de las formas azules son cuadrados y un %4.1f%% son triángulos.
+form5	Now they are all alike in shape and color: there is no reference. 	Ahora son todas iguales en forma y color: no hay una referencia.
+form6	This is the whole set of results. Please choose one shape or one color.	Este es el conjunto de resultados completo. Por favor, escoge una forma o un color.

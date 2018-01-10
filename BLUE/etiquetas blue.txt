@@ -1,0 +1,32 @@
+titulo	Finding the regression line	Determinando la recta de regresión
+tab1	Procedure	Procedimiento
+tab2	Estimator properties	Propiedades de los estimadores
+txt1	Why do we use the criterion of minimizing the sum of squared residuals? Statistics students usually pose this question because sometimes other methods (as for instance $$ min \sum_{i=1}^n |e_i|) $$ could seem equally efficient and even less elaborate.	¿Por qué utilizamos el criterio de minimizar la suma de los residuos al cuadrado? Es habitual que el estudiante de estadística se haga esta pregunta porque otros métodos, como por ejemplo $$ min \sum_{i=1}^n |e_i|, $$ podrían parecer igual de eficientes e, incluso, menos sofisticados.
+txt2	In this experiment you can compare both methods, including a third line according to your own judgment. We will see that using either the square of residuals or the absolute value leads to different solutions with the same data: so, with different estimators, which one would you retain?	En este experimento puedes comparar ambos métodos, incorporando una tercera recta según tu propio criterio. Veremos que usar el cuadrado de los residuos o el valor absoluto conduce a soluciones distintas con los mismos datos: por tanto, disponiendo de distintos estimadores, ¿con cuál quedarse?
+txt3	Click with the mouse to mark the sample observations. The button below can remove all the points.	Clica con el ratón para marcar las observaciones de la muestra. Con el botón inferior se eliminan todos los puntos.
+borra	Erase	Borrar
+txt4	In this chart you can see the same points and, what’s more, the line found using the least absolute deviations approach.	En esta gráfica verás los mismos puntos y, además, la recta hallada con el criterio de mínimas desviaciones absolutas.
+txt5	Mark two points (one click for each one) with the mouse to denote the line you want to fit to the point cloud.	Marca con el ratón dos puntos (un clic cada uno) para indicar la recta que quieres ajustar a la nube de puntos.
+txt6	<em>On the left, top: the sum of absolute values of residuals, where B always takes the lowest value (you can try to improve the result from A)</em>	<em>A la izquierda, arriba, la suma de valores absolutos de los residuos, donde B siempre va a tomar el valor más pequeño (puedes tratar de mejorar el resultado de A)</em>
+txt7	<em>Below, the squares represent the sum of residuals powered to 2, where A always wins, and you can compete for the second place against B.</em>	<em>Debajo, los cuadrados representan la suma de residuos elevados al cuadrado, donde A siempre gana y la segunda plaza se la puedes disputar a B.</em>
+simular	Simulate	Simula
+super	Overlap lines	Superponer rectas
+mues	Show distances	Mostrar distancias
+areas	Surfaces	Áreas
+long	Lengths	Longitudes
+beta1	Slope &beta;<sub>1</sub>	Pendiente &beta;<sub>1</sub>
+beta0	Intercept &beta;<sub>0</sub>	Término independiente &beta;<sub>0</sub>
+ene	Size n	Tamaño n
+epsi	Distribution of &epsilon;:	Distribución de &epsilon;:
+sig	Standard deviation &sigma;	Desviación &sigma;
+esca	Scale factor	Factor de escala
+lapla	<em>This distribution is similar to the Normal, with longer tails. When &epsilon; follows a Laplace distribution, it's more likely that some observations appear far away from the cloud.</em>	<em>Esta distribución es similar a la Normal, pero presenta colas más alargadas. Cuando &epsilon; sigue una distribución de Laplace es más probable que aparezcan observaciones muy alejadas de la nube.</em>
+sim.1	The estimator using a minimum sum of squares approach &#8212;OLS, or <em>Ordinary Least Squares</em>&#8212; is known as BLUE (<em>Best Linear Unbiased Estimator</em>), because it is the most efficient within the class of linear unbiased estimators, given certain conditions. This property is called the <em>Gauss-Markov Theorem</em>.	El estimador que utiliza el criterio de los mínimos cuadrados &#8212;MCO, o <em>Mínimos Cuadrados Ordinarios</em>&#8212; es conocido como BLUE (<em>Best Linear Unbiased Estimator</em>), porque es el más eficiente dentro de la clase de los estimadores lineales e insesgados, bajo ciertos supuestos. Esta propiedad se conoce como el <em>Teorema de Gauss-Markov</em>.
+sim.2	Unlike the least squares method, minimizing the sum of absolute values &#8212;or <em>Least Absolute Deviations</em>, LAD&#8212; does not have an analytical solution, and this must be found numerically. However, an interesting feature is its robustness in the presence of outliers.	A diferencia del método de mínimos cuadrados, minimizar la suma de valores absolutos &#8212;o método de <em>Mínimas Desviaciones Absolutas</em>, MDA&#8212; no posee una solución analítica, y ésta se ha de hallar por métodos numéricos. Sin embargo, una de sus propiedades interesantes es que es un método más robusto en presencia de outliers.
+sim.3	Not being a linear estimator, the LAD method cannot be compared with the OLS. In this experiment you will see that OLS is more efficient under Normal deviations but, if deviations follow the Laplace distribution, LAD behaves better.	Al no ser un estimador lineal, el método MDA no puede compararse con el MCO. En este experimento verás que bajo desviaciones Normales MCO es más eficiente, pero con desviaciones con distribución de Laplace el que se comporta mejor es el MDA.
+sim.4	You can find on the right a comparative table with the standard deviations of the estimations for each parameter and method, obtained from the simulation.	A la derecha encontrarás una tabla comparativa con las desviaciones tipo de las estimaciones de cada parámetro y cada método, a partir de la simulación.
+lineal	Linear term	Término lineal
+cept	Intercept	Termino independiente
+mco	OLS	MCO
+mda	LAD	MDA
+var.1	Reminder: the expressions for the theoretical standard deviation of the estimators, according to the least squares method,	Recordatorio: las expresiones para la desviación teórica de los estimadores según mínimos cuadrados,

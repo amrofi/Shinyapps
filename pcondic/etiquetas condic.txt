@@ -1,0 +1,12 @@
+titulo	Conditional probability	Probabilidad condicionada
+par1	Use Venn diagrams to represent different situations related to any two events, A and B.	Utiliza diagramas de Venn para representar diversas situaciones relativas a dos acontecimientos A y B cualesquiera.
+par2	Assign probabilities to each event by means of the following controls (depending on the circle's radius and the intersection's surface).	Con los controles que siguen puedes asignar probabilidades a cada acontecimiento (según el radio del círculo, y el área de la intersección).
+par3	How do the possibilities of an event change when this event is considered either isolated or conditional upon the occurrence of another event? Two events are independent whenever the two probabilities are the same.	¿Cómo cambian las posibilidades de un acontecimiento, según se contemple aislado o condicionado por la ocurrencia del otro? Cuando estas dos probabilidades sean la misma, los dos acontecimientos serán independientes.
+text	Manual input	Entrada manual
+scal	Scales	Escalas
+centros	Centers	Centros
+radioA	Radius A (left)	Radio A (izquierda)
+radioB	Radius B (right)	Radio B (derecha)
+condi	Conditional upon:	Condicionar por:
+cust	Customize	Personaliza
+labels	Are A and B too vague for you? Below you can write some meaningful description for each symbol (less than 20 characters)	¿A y B es demasiado impreciso? Aquí puedes poner una breve descripción para darles significado (menos de 20 caracteres).

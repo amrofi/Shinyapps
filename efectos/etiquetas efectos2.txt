@@ -1,0 +1,29 @@
+titulo	Credibility of science	Credibilidad de la ciencia
+tab1	Calculator	Calculadora
+tab2	Hints	Ayuda
+tab3	Credibility curve	Curva de credibilidad
+txt1	This application is meant to show you that the chances of repeating a result depends on:	Esta aplicación pretende mostrarle que la posibilidad de repetir un resultado depende de:
+ite1	the scientific background of the hypothesis (the more a priori justification, the more credibility);	la base científica de la hipótesis (mayor justificación previa, mayor credibilidad);
+ite2	the study capacity to reach its goals according to its design, size and precision (the more power, the more credibility);	la capacidad del estudio para alcanzar sus objetivos según su diseño, tamaño y precisión (mayor potencia, mayor credibilidad); 
+ite3	the control of error risk due to false positive signals (the more control, the more credibility).	el control del riesgo de error por falsas señales positivas (mayor control, mayor credibilidad).
+txt2	You can play with these 3 parameters, and the chart on the right will show the changes in the scene: either a real effect or not, combined with either a significant result of the analysis or not. Moreover, it also computes the probability of a "statistically significant" result appearing again.	Vd. debe jugar con estos 3 parámetros, y el gráfico adjunto le mostrará cómo cambia el escenario: un efecto real o no, combinado con resultado del análisis significativo o no. Además, también obtendrá la probabilidad de que un resultado "estadísticamente significativo" se repita en el futuro.
+expe	Expectation of effect	Expectativa del efecto
+expe0	Expectation	Expectativa
+pote	Power	Potencia
+credi	Credibility	Credibilidad
+grAnim	Animated chart	Gráfico animado
+resig	Real effect, significant	Efecto real, significativo
+renosig	Real effect, not significant	Efecto real, no significativo
+sinsig	No effect, significant	Sin efecto, significativo
+sinnosig	No effect, not significant	Sin efecto, no significativo
+efcondsig	(Real effect|Signif.)	(Efecto real|Signif.)
+efr	Real effect	Efecto real
+ma	Confirmatory meta-analysis of good-quality RCTs	Meta-análisis basados en ECAs bien diseñados
+eca	Adequately powered RCT with little bias	Ensayos clínicos bien diseñados (potencia adecuada, sesgo limitado)
+ma2	Meta-analysis of small, inconclusive studies	Meta-análisis de estudios pequeños no concluyentes
+obs1	Adequately powered exploratory epidemiological study	Estudios observacionales con cálculo de potencia
+obs2	Discovery-oriented exploratory research with massive testing	Estudios exploratorios enfocados a la formación de nuevas hipótesis
+intro	The next table, based on Table 4 from Ioannidis' paper, gives some approximate values of the proportion of real effects, depending on several study types. It can be useful as a guide for setting a reasonable value to the "Expectation of effect".	La tabla siguiente, basada en la Table 4 del artículo de Ioannidis, propone valores aproximados de la proporción de efectos reales, según diferente tipos de estudio. Puede ser utilizada como guía para asignar un valor razonable a la "Expectativa del efecto".
+tipo	Study	Estudio
+prob	Approximate percentage	Porcentaje aproximado
+fun	As a function of:	En función de:

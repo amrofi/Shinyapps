@@ -1,0 +1,10 @@
+titulo	Poisson model	Modelo Poisson
+parrafo	Simulate the bombing of London with V2 rockets during the Second World War.<p>In a similar study, it was determined that the flying bombs lacked sufficient accuracy to be aimed at specific targets:<P>once a grid of the city is defined, the number of hits on a cell can be described by a Poisson distribution. <p> This is equivalent to random impact.	Simule el bombardeo de Londres con los cohetes V2 de la II Guerra Mundial.<p>Con un estudio como este se determinó que las bombas volantes carecían de la precisión suficiente para ser dirigidas a objetivos concretos:<p>definida una malla de celdas sobre la ciudad, el número de impactos en una celda podía ser descrito mediante una distribución de Poisson.<p>Lo cual equivale a impactar al azar.
+malla	Grid division	División de la malla
+bombas	Number of bombs	Número de bombas
+dispe	Dispersion (the less dispersion, the more precision)	Dispersión (a menor dispersión, mayor precisión)
+espe	Expected	Esperadas
+obse	Observed	Observadas
+bocel	Bombs/cell	Bombas/celda
+expla	The mean number of bombs per cell is %g (%d/%d). The number of expected hits per cell is based on the product of the total number of bombs and the probabilities from a Poisson distribution with &lambda; = %g.	El número medio de bombas por celda es %g (%d/%d). El número de impactos esperados por celda se basa en el producto del número total de bombas y las probabilidades procedentes de un modelo Poisson con &lambda; = %g.
+

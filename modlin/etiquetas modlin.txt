@@ -1,0 +1,43 @@
+titulo	Linear model and premises	Modelo lineal y premisas
+tab1	Simulation	Simulación
+tab2	A particular case	Un caso particular
+tab3	Details	Detalles
+side1	In order to study the properties of the linear model estimators, 1,000 samples for the response Y as a function of a factor X are generated, according to the parameters specified.	Para estudiar las propiedades de los estimadores del modelo lineal, se generan 1000 muestras de la respuesta Y como función del factor X, a partir de los parámetros especificados.
+side2	Pay special attention to the results obtained when some premise doesn't hold.	Ponga especial atención a los resultados que se producen cuando alguna premisa se incumple.
+pend	Slope &beta;<sub>1</sub>	Pendiente &beta;<sub>1</sub>
+cons	Intercept &beta;<sub>0</sub>	Término independiente &beta;<sub>0</sub>
+sig	Deviation &sigma;	Desviación &sigma;
+ene	Size n	Tamaño n
+prem	Compliance of premises:	Cumplimiento de las premisas:
+all	All	Todas
+homo	Homoscedasticity no	Homocedasticidad no
+line	Linearity no	Linealidad no
+norma	Normality no	Normalidad no
+indd	Independence no	Independencia no
+nl	Nonlinear term:	Término no lineal:
+epsi	Distribution &epsilon;:	Distribución &epsilon;:
+unif	uniform	uniforme
+expo	exponential	exponencial
+ush	U-shaped	forma de U
+depp	Dependence:	Dependencia:
+T1.1	Distributions in purple color show how the corresponding estimator would distribute whenever all the premises hold.	Las distribuciones en color morado indican cómo se distribuirían los estimadores correspondientes en caso de que las premisas se estén cumpliendo.
+T1.2	Furthermore, the last two charts show the distribution of the <em>t</em> statistics under the null hypothesis, for &beta;<sub>1</sub> and &beta;<sub>0</sub>, respectively. Notice that the null hypothesis changes according to the value set for the parameter (it's not always 0).	Además, las dos últimas gráficas muestran la distribución del estadístico <em>t</em> bajo la hipótesis nula, para &beta;<sub>1</sub> y &beta;<sub>0</sub> respectivamente. Observe que la hipótesis nula se refiere al valor establecido para el parámetro (no solo es 0).
+wtf	What's in there?	¿Qué hay ahí dentro?
+T2	These graphics go with someone of the size <em>n</em> samples. Especifically:	Los gráficos corresponden a una cualquiera de las muestras de tamaño <em>n</em>. Concretamente:
+t2.a	a) the scatterplot of Y versus X,	a) el diagrama bivariante de Y respecto X,
+t2.b	b) the diagram of the residuals versus the fitted values,	b) el diagrama de los residuos respecto los valores ajustados,
+t2.c	c) the QQ-normal diagram, to verify whether the residuals follow the Normal distribution,	c) el diagrama QQ-normal, para verificar si los residuos siguen un modelo Normal,
+t2.d	d) the diagram of (standardized) residuals in sequence, to check whether they are independent.	d) el diagrama de los residuos (estandarizados) en orden, para comprobar si son independientes entre sí.
+t3.1	<br>The nominal &alpha; risk is 5%.<br>	<br>El riesgo &alpha; nominal es del 5%.<br>
+t3.2	<br>For the test &beta;<sub>1</sub>=%g, the estimated risk is equal to %g<br>	<br>Para la prueba &beta;<sub>1</sub>=%g, el riesgo estimado es igual a %g<br>
+t3.3	<br>For the test &beta;<sub>0</sub>=%g, the estimated risk is equal to %g<br>	<br>Para la prueba &beta;<sub>0</sub>=%g, el riesgo estimado es igual a %g<br>
+t3.4	<br><em>The estimated risks have been computed counting how many times the statistic takes a value exceeding (either on the left or right) the critical point given by a t-Student with <em>n-2</em> degrees of freedom, and making the proportion out of 1,000 tests.</em><br>	<br><em>Los riesgos estimados se calculan comprobando cuántas veces el estadístico presenta un valor que excede (por izquierda o derecha) el punto crítico obtenido por una t-Student con n-2 grados de libertad, y haciendo la proporción sobre 1000 pruebas.</em><br>
+Hetero	Heteroscedasticity has been introduced by means of a perturbation with a minimum standard deviation where X=1 and a maximum where X=10; on average, it is the same &sigma; value assigned as input. As you can see, heteroscedasticity can affect inference on the &beta;<sub>0</sub> parameter: its estimation is less variable than expected.	Se ha introducido heterocedasticidad mediante una perturbación con desviación típica mínima en X=1 y máxima en X=10; en promedio, corresponde al valor de &sigma; asignado en la entrada. Como se puede comprobar, queda afectada la inferencia sobre el parámetro &beta;<sub>0</sub>: su estimación es menos variable de lo esperado.
+NoLin	The pattern for Y versus X is not a straight line anymore, but a function E(Y<sub>i</sub> | X) = c<sub>0</sub> + c<sub>1</sub> X + c<sub>2</sub> X<sup>2</sup> (or <em>parabola</em>). The quadratic coefficient is fixed by the user and determines the function convexity. The other two coefficients are calculated so that, in this range, the parabola is as close as possible to the line &beta;<sub>0</sub> + &beta;<sub>1</sub> X. <p><p>In general, the slope of the supposed line is well estimated, and the intercept is only a bit biased (as the range considered for X is near to 0), but the residual variance can be estimated with great error and, consequently, the statistics for the hypothesis tests too.	El patrón de Y respecto a X no es una recta, sino una función E(Y<sub>i</sub> | X) = c<sub>0</sub> + c<sub>1</sub> X + c<sub>2</sub> X<sup>2</sup> (o <em>parábola</em>). El coeficiente cuadrático es fijado por el usuario y determina la convexidad de la función. Los otros dos coeficientes son calculados de manera que, en este rango, la parábola esté lo más cerca posible de la recta &beta;<sub>0</sub> + &beta;<sub>1</sub> X. <p><p>En general, la pendiente de la supuesta recta se estima bien, y el término independiente presenta un sesgo pequeño (ya que el rango considerado para la X está cerca de 0), pero la variancia residual se puede estimar con mucho error y, en consecuencia, también los estadísticos de las pruebas de hipótesis.
+Nono	The random values generated as disturbances come from a distribution other than a Normal one. All cases have been corrected to have mean 0 and standard deviation equal to &sigma; In this case the user has chosen 	Los valores aleatorios generados para las perturbaciones provienen de una distribución diferente de una normal. En todos los casos se han corregido para tener media 0 y desviación &sigma;. En este caso el usuario ha escogido
+modun	a uniform model.	un modelo uniforme.
+modex	an exponential model.	un modelo exponencial.
+modU	a beta model with suitable parameters to make it U-shaped.	un modelo beta con parámetros adecuados para darle forma de U.
+Nono2	<p><p>Although the inference on the line parameters is relatively robust before this premise fails, it’s been found that the estimation of the residual variance can be deficient.	<p><p>Aunque la inferencia sobre los parámetros de la recta es relativamente robusta ante fallo de esta premisa, se observa que la estimación de la variancia residual puede ser deficiente.
+NoInd	The disturbances (or residuals) are not independent, since you have imposed that each value presents some correlation (upon user input) with the preceding value. This premise is very important: when data are not independent, neither the line parameters nor the residual variance are estimated in accordance with the reference distribution and, consequently, nor does the statistic for hypothesis testing coincides with the t-Student model.	Las perturbaciones, o residuos, no son independientes, porque se ha obligado a que un valor presente cierta correlación (según entrada del usuario) con el valor anterior. Esta premisa es muy importante: si los datos no son independientes, ni los parámetros de la recta ni la variancia residual son estimados de acuerdo con la distribución de referencia y, en consecuencia, tampoco el estadístico de las pruebas de hipótesis coincide con una t-Student.
+todoOK	Data have been generated according to the premises: the expected values of Y are linear with respect to X, and the disturbances are independent, Normal, and have a common standard deviation for each value X<sub>i</sub>. So, the estimated risks are compatible with the nominal risk &alpha;.	Los datos se han generado de acuerdo con las premisas: los valores esperados de Y son lineales respecto a X, y las perturbaciones son independientes, normales y con desviación típica común para todos los valores X<sub>i</sub>. Por tanto, los riesgos estimados son compatibles con el riesgo &alpha; nominal.

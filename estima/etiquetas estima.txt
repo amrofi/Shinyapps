@@ -1,0 +1,33 @@
+titulo	Distribution of estimators	Distribución de los estimadores
+tab1	The experiment	El experimento
+tab2	Details	Detalles
+txt1	The idea of estimation is inseparable from that of <em>estimation error</em>. Here, the term "error" does not mean that we did something wrong: it simply reminds us that it’s practically impossible for some point estimation to concur with the parameter we wish to estimate.	La idea de estimación es inseparable de la de <em>error de estimación</em>. Aquí, la palabra "error" no significa que hayamos hecho algo mal: simplemente nos recuerda que una estimación puntual difícilmente coincide con el parámetro que se desea estimar.
+txt2	In this case, suppose that we want to get the value of the maximum speed of the wind in some geographical region. Since we don't have the proper tool for this aim, we have to rely on a limited quantity of readings, assumed to be a random sample of wind speeds.	En este caso, supongamos que se desea obtener el valor de la velocidad máxima que alcanza el viento en cierta zona geográfica. Al no disponer del instrumento apropiado, nos hemos de basar en una cantidad limitada de lecturas que suponen una muestra de velocidades al azar.
+txt3	We propose four different estimators that can be easily obtained from any sample. Pay attention to their characteristics: which are biased and which are not, or which one has the least estimation error (or <em>standard error</em>).	Te proponemos cuatro estimadores diferentes que se pueden calcular con facilidad de una muestra cualquiera. Observa sus propiedades: cuáles tienen sesgo y cuáles no, o cuál presenta el menor error de estimación (o <em>error típico</em>).
+txt4	Unlike some other estimators (such as those appearing in the <a href="http://shiny-eio.upc.edu/josean/VAC/"> Continuous Random Variable</a> example), these estimators derive from very simple properties that you will find in this page.	A diferencia de lo que ocurre con ciertos estimadores (como los que se hallan en el ejemplo de la <a href="http://shiny-eio.upc.edu/josean/VAC/"> Variable Continua</a>), los estimadores empleados aquí derivan de propiedades muy simples que puedes encontrar en esta página.
+txt5	The reason is that our parameter of interest (T, the maximum of the distribution) is directly related to other parameters which have plain, easy to compute estimators, such as the mean, the median or the variance.	El motivo es que nuestro parámetro de interés (el máximo de la distribución, T) está relacionado directamente con otros parámetros que poseen estimadores sencillos y fáciles de calcular, tales como la media, la mediana o la variancia.
+txt6	For instance, if the speed is uniformly distributed, the expected value &mu; is half of T. So, it is reasonable to take double the sample mean as an estimator of T.	Por ejemplo: cuando la velocidad se distribuye uniformemente, la esperanza &mu; vale la mitad que T. Por lo tanto, es razonable tomar el doble de la media muestral como estimador de T.
+txt7	Anyway, remember that as much the mean as the median, the variance or the (sample) maximum are sensitive to the random variability of data. So, the associated estimators do  fluctuate around the parameter (actually, the sample maximum is always under the real maximum; therefore it is a biased estimator).	En cualquier caso, recuerda que tanto la media, como la mediana, la variancia o el máximo muestral son sensibles a la variabilidad aleatoria de los datos, y por tanto los estimadores asociados van a oscilar alrededor del parámetro (en realidad, el máximo muestral siempre está por debajo del máximo real y, en consecuencia, es un estimador sesgado).
+prof	Wind profile	Perfil del viento
+unif	Uniform	Uniforme
+deb	Predominant weak	Predominio débil
+fuer	Predominant strong	Predominio fuerte
+vmax	Maximum speed	Velocidad máxima
+enelab	Sample size	Tamaño de muestra
+stat	Statistics for the four estimators from simulation (1,000 samples of size n generated)	Estadísticas de los cuatro estimadores a partir de simulación (se han generado 1000 muestras de tamaño n)
+fdens	Probability density function	Función de densidad
+espe	Expected value	Valor esperado
+vari	Variance	Variancia
+medi	Median	Mediana
+velo	speed	velocidad
+fd	prob. density f.	f. densidad
+indic	Indicators of wind speed	Indicadores de la velocidad del viento
+Max	Maximum: 	Máximo: 
+Sd	Standard deviation: 	Desviación típica: 
+emm	Sample estimators of the maximum	Estimadores muestrales del máximo
+oI	I: based on the sample mean	I: basado en la media muestral
+oII	II: based on the sample median	II: basado en la mediana muestral
+oIII	III: based on the sample standard deviation	III: basado en la desviación tipo muestral
+oIV	IV: based on the sample maximum	IV: basado en el máximo muestral
+prom	Average	Promedio
+dsv	Std. Deviation	Desviación

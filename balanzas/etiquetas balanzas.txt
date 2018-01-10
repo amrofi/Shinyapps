@@ -1,0 +1,15 @@
+titulo	The pumpkins	Las calabazas
+par1	We have to weigh some pumpkins, but our only tool is a standard bathroom scale in increments of 100 grams.<p>Within this experiment, we will try to find a more accurate measure. This involves increasing the amount of information through multiple measurements by putting the pumpkins in groups on the scale.	Hemos de pesar unas cuantas calabazas, pero nuestra única herramienta es una balanza de baño común, que posee una precisión de 100 gramos.<p>Con este experimento vamos a comprobar si es posible obtener una medida más precisa. Se trata de obtener más información aumentando el número de pesadas, colocando las calabazas sobre la balanza en grupos.
+par2	But, won't the information be redundant? Not always, because rounding may lead to the observed weight for a given group becoming unequal to the sum of their individual weights.<p>With all the registers obtained, we get a global estimation by minimizing the measurement errors.	Pero, ¿la información no será redundante? No siempre porque, debido al redondeo, puede que el peso observado de un grupo no sea igual a la suma de sus pesos observados.<p>Con todas las pesadas realizadas, obtendremos una estimación global minimizando los errores de medición.
+num	Choose the number of pumpkins	Elige el número de calabazas
+pesa	Select in the chart which groups you want to weigh, by clicking on the side square.	Marca en el gráfico las pesadas que quieres realizar clicando en el cuadro del lateral.
+calcula	Compute	Calcula
+borra	Erase all	Borra todo
+marca	Mark all	Marca todo
+dets	Details	Detalles
+txt1	The procedure is similar to that of the linear model: we minimize the sum of squared errors, that is: $$\min \ \lVert AX - B \rVert_2 $$ where \( A \) is a matrix of 0 and 1 for indicating which pumpkins are used each time, including individual measurements (rows correspond to weightings, columns to pumpkins); \( B \) is the observed result for each group, and \( X \) is the desired solution.	El procedimiento es similar al del modelo lineal: minimizamos la suma de cuadrados de los errores, es decir: $$\min \ \lVert AX - B \rVert_2 $$ donde \( A \) es una matriz de 0 y 1 que indica las calabazas utilizadas en cada pesada, incluyendo pesadas individuales (las filas son pesadas y las columnas son calabazas); \( B \) es el resultado observado de pesar cada grupo, y \( X \) es la solución buscada.
+txt2	One can verify that the value minimizing the above expression is: $$ X^* = (A^T A)^{-1} A^T B $$	Puede comprobarse que el valor que minimiza la expresión anterior es: $$ X^* = (A^T A)^{-1} A^T B $$
+peso	Weight	Peso
+medido	Measured	Medido
+estim	Estimated	Estimado
+desvio	Global deviation 	Desvío global
